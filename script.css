@@ -1,12 +1,16 @@
   .imagem {
-    display: flex;         /* Coloca os filhos um ao lado do outro */
+    display: flex;         /* Coloca o texto do lado do outro */
     align-items: center;  /* Alinha verticalmente ao centro */
     gap: 16px;            /* Espaçamento entre a imagem e o texto */
     border-radius: 5px;  /* Arredonda os cantos da imagem */
     border-color: rgb(155,155,255);
     border-style: solid;
   }
-
+  .imagemDoLogin{
+    display: flex;         /* Coloca o texto do lado do outro */
+    align-items: center;  /* Alinha verticalmente ao centro */
+    gap: 16px;            /* Espaçamento entre a imagem e o texto */
+  }
   .texto{
     color: #ffffff;    
   }
@@ -37,4 +41,14 @@
         width: 100%;
         bottom: 0;
     }
-    
+            .opcao-grupo {
+            margin-bottom: 15px;
+        }
+        /* Esconde as perguntas inicialmente */
+        .pergunta-dinamica {
+            display: none;
+            margin-top: 15px;
+            padding: 10px;
+            border-left: 4px solid #007BFF;
+        }
+  
